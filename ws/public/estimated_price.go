@@ -3,7 +3,7 @@ package public
 import (
 	"encoding/json"
 
-	"github.com/iaping/go-okx/ws"
+	"github.com/zhouwei0192/go-okx/ws"
 )
 
 type HandlerEstimatedPrice func(EventEstimatedPrice)

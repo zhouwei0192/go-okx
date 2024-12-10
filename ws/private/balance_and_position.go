@@ -3,8 +3,8 @@ package private
 import (
 	"encoding/json"
 
-	"github.com/iaping/go-okx/common"
-	"github.com/iaping/go-okx/ws"
+	"github.com/zhouwei0192/go-okx/common"
+	"github.com/zhouwei0192/go-okx/ws"
 )
 
 type HandlerBalanceAndPosition func(EventBalanceAndPosition)

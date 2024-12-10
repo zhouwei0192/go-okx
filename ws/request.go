@@ -25,6 +25,6 @@ func NewRequestLogin(args interface{}) *Request {
 func NewRequest(op string, args interface{}) *Request {
 	return &Request{
 		Op:   op,
-		Args: []interface{}{args},
+		Args: args,
 	}
 }

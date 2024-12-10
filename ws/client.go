@@ -8,7 +8,7 @@ import (
 )
 
 const (
-	EndpointPublic           = "wss://ws.okx.com:8443/ws/v5/public"
+	EndpointPublic           = "wss://ws.okx.com:8443/ws/v5/business"
 	EndpointPrivate          = "wss://ws.okx.com:8443/ws/v5/private"
 	EndpointPublicSimulated  = "wss://wspap.okx.com:8443/ws/v5/public?brokerId=9999"
 	EndpointPrivateSimulated = "wss://wspap.okx.com:8443/ws/v5/private?brokerId=9999"

@@ -3,7 +3,7 @@ package public
 import (
 	"encoding/json"
 
-	"github.com/iaping/go-okx/ws"
+	"github.com/zhouwei0192/go-okx/ws"
 )
 
 type HandlerKline func(EventKline)
@@ -14,7 +14,7 @@ type EventKline struct {
 }
 
 // default subscribe
-func SubscribeKline(args *ws.Args, handler HandlerKline, handlerError ws.HandlerError, simulated bool) error {
+func SubscribeKline(args []ws.Args, handler HandlerKline, handlerError ws.HandlerError, simulated bool) error {
 	h := func(message []byte) {
 		var event EventKline
 		if err := json.Unmarshal(message, &event); err != nil {

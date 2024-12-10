@@ -1,7 +1,7 @@
 package trade
 
 import (
-	"github.com/iaping/go-okx/rest/api"
+	"github.com/zhouwei0192/go-okx/rest/api"
 )
 
 func NewGetOrdersPending(param *GetOrdersQueryParam) (api.IRequest, api.IResponse) {
